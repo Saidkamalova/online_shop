@@ -1,1 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Montserrat&display=swap');
 
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.product-wrapper{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.product-bottom{
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product1{
+    background: url(https://hamleys.ru/upload/iblock/b32/b32ec413d39a8760a70cba895122ce5e.jpg);
+    background-size: cover;
+}
+.product2{
+    background: url(https://hamleys.ru/upload/iblock/b32/b32ec413d39a8760a70cba895122ce5e.jpg);
+    background-size: cover;
+}
+.product3{
+    background: url(https://hamleys.ru/upload/iblock/b32/b32ec413d39a8760a70cba895122ce5e.jpg);
+    background-size: cover;
+}
+.product4{
+    background: url(https://hamleys.ru/upload/iblock/b32/b32ec413d39a8760a70cba895122ce5e.jpg);
+    background-size: cover;
+}
+.cart-button{
+    border-radius: 20px;
+    background-color: #A73121;
+    width: 224px;
+    height: 48px;
+    margin-top: 60px;
+}
+.products{
+    height: 200px;
+}
