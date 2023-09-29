@@ -4,6 +4,12 @@ body{
     font-family: 'Comfortaa', cursive;
     background-color: #F6F4EB;
 }
+@media (width>1300px){
+    .container{
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
 header{
     background: #91C8E4;
     display: flex;
@@ -27,12 +33,12 @@ button{
     margin: 10px;
 }
 .product-wrapper{
-    width: 80vw;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 2em;
+    flex: wrap;
 }
 .product1{
     background: url(https://hamleys.ru/upload/iblock/b32/b32ec413d39a8760a70cba895122ce5e.jpg);
@@ -65,4 +71,5 @@ button{
 }
 .goods{
     flex-direction: column;
+    min-width: 300px;
 }
